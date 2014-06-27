@@ -5,48 +5,61 @@
     <title>Template</title>
 </head>
 <body>
-<header>
-    <div class="social-networks">
-        <button class="facebook"></button>
-        <button class="twitter"></button>
-        <button class="rss"></button>
-        <p>Следи за нами в социальных сетях</p>
-    </div>
-    <div class="banner"></div>
-    <img class="logo" src="" alt=""/> <!-- Как вариант: <figure class="logo">
-                                                            <img src="" alt=""/>
-                                                            <figcaption>Современный варез портал</figcaption>
-                                                        </figure>
-                                       -->
-    <form class="login" action="">
-        <input type="text" value="Логин..."/>
-        <input type="text" value="Пароль..."/>
-        <input type="submit" class="submit-login"/>
-        <p>Регистрация на сайте</p>
-        <a href="http://restorePassword.html">Забыл пароль?</a>
-        <!-- Стоит ли помещать предыдущий абзац и ссылку внутри элемента формы?-->
-    </form>
-    <menu>
-        <button class="add-news"></button>
-        <button class="mail-to-admin"></button>
-        <button class="info-copy"></button>
-        <button class="add-to-favourites"></button>
-    </menu>
-    <nav>
-        <ul>
-            <li><a href="http://main.html">Главная</a></li>
-            <li><a href="http://forum.html"></a>Форум</li>
-            <li><a href="http://contacts.html"></a>Контакты</li>
-            <li><a href="http://statistics.html"></a>Статистика</li>
-            <li><a href="http://advertisement.html"></a>Реклама</li>
-        </ul>
-    </nav>
-    <form class="search" action="">
-        <input type="text" value="Введите текст для поиска..."/>
-        <input type ="submit" class="submit-searching"/>
-    </form>
-    <!-- Навигацию и форму поиска наверное следует вложить в div?
-    Но это с точки зрения описания css стилей в дальнейшем-->
-</header>
+    <header>
+
+        <div class="social-networks">
+            <button class="facebook"></button>
+            <button class="twitter"></button>
+            <button class="rss"></button>
+            <p>Следи за нами в социальных сетях</p>
+        </div>
+
+        <div class="banner"></div>
+
+        <img class="logo" src="" alt=""/> <!-- Как вариант: <figure class="logo">
+                                                                <img src="" alt=""/>
+                                                                <figcaption>Современный варез портал</figcaption>
+                                                            </figure>
+                                           -->
+        <form class="login" action="">
+            <input type="text" value="Логин..."/>
+            <input type="text" value="Пароль..."/>
+            <input type="submit" class="submit-login"/>
+            <p>Регистрация на сайте</p>
+            <a href="http://restorePassword.html">Забыл пароль?</a>
+            <!-- Стоит ли помещать предыдущий абзац и ссылку внутри элемента формы?-->
+        </form>
+
+        <menu>
+            <button class="add-news"></button>
+            <button class="mail-to-admin"></button>
+            <button class="info-copy"></button>
+            <button class="add-to-favourites"></button>
+        </menu>
+
+        <nav>
+            <ul>
+                <li><a href="http://main.html">Главная</a></li>
+                <li><a href="http://forum.html">Форум</a></li>
+                <li><a href="http://contacts.html">Контакты</a></li>
+                <li><a href="http://statistics.html">Статистика</a></li>
+                <li><a href="http://advertisement.html">Реклама</a></li>
+            </ul>
+        </nav>
+
+        <form class="search" action="">
+            <input type="text" value="Введите текст для поиска..."/>
+            <input type ="submit" class="submit-searching"/>
+        </form>
+        <!-- Навигацию и форму поиска наверное следует вложить в div?
+        Но это с точки зрения описания css стилей в дальнейшем-->
+        <div class="strange-div-with-rounded-corners"></div>
+
+        <details>
+            <summary>Обновление сайта v.2.0</summary>
+            <p>Уважаемые пользователи портала, сегодня в <time datetime="2014-06-27 12:00">12.00</time>
+               был обновлён дизайн и CMS нашего портала. Администрация.</p>
+        </details>
+    </header>
 </body>
 </html>
